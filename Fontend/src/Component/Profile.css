@@ -1,0 +1,28 @@
+.profile-full{
+    height: 330px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+.profile-avt{
+    height: 300px;
+    width: 70%;
+    border-radius: 4px;
+    margin-left: 72px;
+}
+.profile-avt .zindex3{
+    height: 300px;
+    width: 69.4%;
+    border-radius: 0px 0px 4px 4px;
+    z-index: 3;
+    position: fixed;
+}
+.profile-avt .zindex4{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: 4;
+    position: fixed;
+    margin: 130px 0px 0px 28%;
+}
+

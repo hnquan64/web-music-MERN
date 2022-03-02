@@ -1,0 +1,117 @@
+/* ----------------------SIGNIN-------------------- */
+
+.form-signin-full{
+    height: 600px;
+    width: 450px;
+    background-image: linear-gradient(#7876FE,#e12bf1);
+    margin: 100px auto ;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.form-signin{
+    width: 80%;
+    height: 85%;
+    /* background-color: brown; */
+
+}
+::placeholder{
+    color: white;
+    font-weight: 500;
+}
+.form-signin input{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    line-height: 1.2;
+    display: block;
+    width: 80%;
+    height: 45px;
+    background: transparent;
+    padding: 0px 0px 0px 10px;
+    float: left;
+}
+.form-signin img {
+    height: 45px;
+    width: 30px;
+    float: left;
+    padding-bottom: -20px;
+}
+.form-signin hr{
+    width: 100%;
+    color: black;
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.form-signin span{
+    margin: 10px 125px;
+    width: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+ 
+}
+.icon-intro-video{
+    width: 120px;
+    margin: 0px auto;
+}
+.intro-video{
+    width: 100%;
+    border-radius: 100px;
+}
+
+.form-signin input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+       -moz-appearance: checkbox;
+            appearance: checkbox;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0px 3px;
+}
+.form-signin input[type="checkbox"]:focus{
+    background-color: blueviolet;
+}
+.color-rememberme{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-signin button{
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    outline: none !important;
+    border: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 50px 120px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.form-signin button:hover{
+    background: -webkit-linear-gradient(bottom, #7579ff, #b224ef);
+}
+.color-rememberme a{
+    margin-left: 0px !important;
+    font-size: 16px !important;
+}
+.form-signin a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.form-signin a:hover{
+    color: aqua;
+}

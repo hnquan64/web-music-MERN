@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="meunu">
+        <div class="header">
+            GOMUSIC BACKEND
+        </div>
+        <div class="bgnut">
+            <div class="nut">
+                <a href="./addSinger">THÊM CA SĨ</a>
+            </div>
+            <div class="nut">
+                <a href="./listsinger">DANH SÁCH CA SĨ</a>
+            </div>
+            <div class="nut">
+                <a href="./addSong">THÊM BÀI HÁT</a>
+            </div>
+        </div>
+        <% data.forEach(function(Singer){%>
+            <table>
+                <tr class="singer">
+                    <td colspan="3"><%- Singer.Name %></td>
+                </tr>
+                <% Singer.dssong.forEach(function(song){ %>
+                <tr class="song">
+                    <td >
+                        <img src="./upload/song/<%- song.Poster %>" class="poster"/>
+                    </td>
+                    <td>
+                        <div class="songAud">
+                            <%- song.Name %> <br/>
+                            <audio src="./upload/song/<%- song.Aud %>" class="aud" controls></audio>
+                        </div>
+                    </td>
+                    <td>
+                        <a onClick="return confirm('Xóa <%- song.Name %> thật không bạn ơi?')" href="./deletesong/<%- song._id %>">Delete</a>
+                    </td>
+                </tr>
+                <% }); %>
+            </table>
+        <% }); %>
+    </div>
+</body>
+</html>

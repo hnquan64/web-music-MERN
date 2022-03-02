@@ -1,0 +1,40 @@
+.Bg_LienHe{
+    background-color: #F1F1F1;
+}
+.Noi_Dung_LienHe{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 10px;
+}
+.Noi_Dung_LienHe p{
+    margin-left: 200px;
+}
+.lienhe-form{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.lienquanden{
+    width: 200px;
+}
+.lienhe-form form table tr td{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.nhapthongtin{
+    width: 200px;
+}
+.lienhe-textarea{
+    width: 200px;
+    height: 100px;
+}
+.lienhe-button{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

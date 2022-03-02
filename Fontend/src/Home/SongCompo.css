@@ -1,0 +1,40 @@
+.slick-prev:before, .slick-next:before{
+    color: #7b738b !important;
+    opacity: 0.5;
+}
+.songcompo-full{
+    width: 180px;
+    height: 230px;
+    margin: 10px;
+}
+.slideshow-full .hover{
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.songcompo-full .songcompo-info p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.songcompo-full .songcompo-info a{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #A0A0A0;
+}
+.songcompo-full .songcompo-info a:hover{
+    color: aqua;
+}
+.songcompo-full .songcompo-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 3px;
+}
+.songcompo-full .songcompo-img:hover{
+    transform: scale(1.1);
+    opacity: 0.5 black;
+}

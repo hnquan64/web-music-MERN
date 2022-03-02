@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="http://localhost:5000/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADD SONG</title>
+  <style>input, select {margin: 10px;} </style>
+</head>
+<body>
+  <div>
+    <form action="./addSong" method="POST" enctype="multipart/form-data">
+      <select name="slcSinger" >
+          <% dssinger.forEach(function(singer){ %>
+              <option value="<%- singer._id%>"><%- singer.Name%></option>
+          <% }); %>
+      </select> <br/>
+      <input type="text" name="txtAuthor" txtAuthor placeholder="Ca sĩ"><br/>
+      <input type="text" name="txtSongName" placeholder="Tên bài hát"/> <br/>
+      <select id="genre" name="txtGenre">
+          <option value="Ballad">Ballad</option>
+          <option value="EDM">EDM</option>
+          <option value="Pop">Pop</option>
+          <option value="R&B">R&B</option>
+          <option value="Rock">Rock</option>
+        </select> <br/>
+      <input type="file" name="songPoster"/> <br/>
+      <input type="file" name="songAudio"/> <br/>
+      <select id="area" name="txtArea">
+          <option value="V-Pop">V-POP</option>
+          <option value="C-Pop">C-POP</option>
+          <option value="K-Pop">K-POP</option>
+          <option value="US-UK">US-SK</option>
+        </select> <br/>
+      <input type="text" name="Time" placeholder="Time"/> <br/>
+      <input type="number" name="Count" placeholder="Count"/> <br/>
+      <input type="number" name="Likesong" placeholder="Like"/> <br/>
+      <input type="submit" value="Add Song">
+  </form>
+  </div>
+</body>
+</html>
+

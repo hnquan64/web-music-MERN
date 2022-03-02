@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="http://localhost:5000">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="listsinger.css" type="text/css">
+    <title>Document</title>
+    <style>
+        .bgnut {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+}
+.nut {
+    background-color:  palevioletred;
+    display: inline;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+}
+a {
+    color: black;
+    padding: 5px; 
+}
+    </style>
+</head>
+<body>
+    <div id="singerList">
+        <div class="bgnut">
+            <div class="nut">
+                <a href="./addSinger">THÊM CA SĨ</a>
+            </div>
+            <div class="nut">
+                <a href="./">TRANG CHỦ</a>
+            </div>
+            <div class="nut">
+                <a href="./addSong">THÊM BÀI HÁT</a>
+            </div>
+        </div>
+        <% dssinger.forEach(function(singer){ %>
+            <div class="charactor">
+                <table>
+                    <tr>
+                        <td colspan="2"><img src="./upload/singer/image/<%- singer.Cover %>" class="cover"/></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4"><img src="./upload/singer/image/<%- singer.Ava %>" class="ava"/></td>
+                            <tr>
+                                <td><div class="singerName"><%- singer.Name %></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="singerAge"><%- singer.Age %></div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="singerCountry"><%- singer.Country %></div></td>
+                            </tr>
+                    </tr>
+                    <tr>
+                        <td><a href="./editSinger/<%- singer._id %>">Edit</a></td>
+                        <td><a onClick="return confirm('Xóa <%- singer.Name %> thật không bạn ơi?')" href="./delete/<%- singer._id %>">Delete</a></td>
+                    </tr>
+                    </table>
+            </div>
+        <% }); %>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+.kichthuoc-full-nav{
+    background-color: #000000;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.kichthuoc-nav{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+}
+#logo-nav-gomusic{
+    height: 50px;
+    width: 80px;
+    padding: 0px 10px;
+    float: left;
+}
+#icon-nav-search{
+    height: 15px;
+    width: 15px;
+}
+.nav-vitri-search{
+    float: left;
+    width: 350px;
+}
+.kichthuoc-nav ul{
+    list-style-type: none;
+    /* overflow: hidden; */
+    /* background-color:#333333; */
+    font-family: "Baloo Tammudu 2";
+    font-size: 15px;
+    height: 50px;
+    width: 100%;
+    
+}
+.kichthuoc-nav ul li:hover{
+    background-color: #111111;
+    /* transform: scale(1.1); */
+}
+.kichthuoc-nav ul li{
+    font-family: initial;
+    height: 50px;
+    width: 9%;
+    float: left;
+    behavior: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+.nav-input{
+    margin: 10px 10px;
+    width: 330px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    outline: 0;     
+    outline-style: none;     
+    outline-width: 0; 
+    color: black;
+}
+.nav-button{
+    height: 30px;
+    width: 25px;
+    margin-left: -10px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    outline: 0;     
+    outline-style: none;     
+    outline-width: 0; 
+}
+.nav-button:hover{
+  background-color: wheat;
+}

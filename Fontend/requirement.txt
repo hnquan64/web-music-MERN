@@ -1,0 +1,16 @@
+1. npm install react-router-dom
+2. npm install recharts
+3.  install react-elastic-carousel
+4. install styled-components
+5. npm install react-image --save
+6. npm install react-slick --save 
+7. npm install slick-carousel
+8. npm install react-mp3-player
+9. npm install react-dropdown  --save
+react-css-dropdown
+npm install @material-ui/core
+
+
+npm i @popperjs/core
+npm install react-bootstrap bootstrap
+reactjs-popup

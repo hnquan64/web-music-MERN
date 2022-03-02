@@ -1,0 +1,21 @@
+.advertisement-full{
+    background-color: #FFFFFF;
+    height: 330px;
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.advertisement-80{
+    width: 46%;
+    margin: 0px auto;
+    background-color: pink;
+    border-radius: 3px;
+}
+.advertisement-80 video{
+    height: 295px;
+    padding-top: 5px;
+    width: 100%;
+    outline: 0;     
+    outline-style: none;     
+    outline-width: 0; 
+}

@@ -1,0 +1,15 @@
+#wrapper{
+    width: 100%;
+
+}
+#header{
+    width: 100%;
+    background-color: palevioletred;
+    font-size: 21px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#content{
+    width: 100%;
+}

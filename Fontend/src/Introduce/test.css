@@ -1,0 +1,14 @@
+.test-full{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    overflow: hidden;
+}
+.test-full img{
+    width: 400px;
+    height: 400px;
+    /* margin: 0px auto; */
+}
+.test-full img:hover{
+    transform: scale(1.2);
+}

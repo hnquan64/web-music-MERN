@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="http://localhost:5000">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Singer</title>
+    <style>
+        input {margin: 10px;}
+    </style>
+</head>
+<body>
+    <h2>Add Singer</h2>
+    <form action="./addSinger" method="POST" enctype="multipart/form-data"> <br/>
+        <input type="text" placeholder="Ten" name="txtSingerName" /> <br/>
+        <input type="text" placeholder="Tuoi" name="txtAge" /> <br/>
+        <!-- <input type="file" name="images" multiple/> <br/> -->
+        <input type="file" name="singerAva"/> <br/>
+        <input type="file" name="singerCover"/> <br/>
+        <input type="text" placeholder="Quoc tich" name="txtCountry" /> <br/>
+        <input type="number" name="Likesinger" placeholder="Like"/> <br/>
+        <input type="submit" value = "Add new" /> 
+    </form>
+</body>
+</html>

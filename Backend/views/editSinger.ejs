@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="http://localhost:5000">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Singer</title>
+</head>
+<body>
+    <h2>Edit Singer</h2>
+    <form action="./editSinger" method="POST" enctype="multipart/form-data"> <br/>
+        <input type="hidden" name="IDChar" value="<%- casi._id%>">
+        <input type="text" placeholder="Ten" name="txtSingerName" value="<%- casi.Name%>"/> <br/>
+        <input type="text" placeholder="Tuoi" name="txtAge" value="<%- casi.Age%>"/> <br/>
+        <!-- <input type="file" name="images" multiple/> <br/> -->
+        <img src="./upload/singer/image/<%- casi.Ava%>" width="100" />
+        <input type="file" name="singerAva"/> <br/>
+        <img src="./upload/singer/image/<%- casi.Cover%>" width="100" />
+        <input type="file" name="singerCover"/> <br/>
+        <input type="text" placeholder="Quoc tich" name="txtCountry" value="<%- casi.Country%>"/>
+        <input type="submit" value = "Edit" /> 
+        <a href="./listsinger" id="listinger" type="button">Back</a>
+    </form>
+</body>
+</html>

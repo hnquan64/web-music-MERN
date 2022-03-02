@@ -1,0 +1,48 @@
+#singerList {
+    text-align: center;
+}
+.charactor a{
+    margin: 10px;
+    display: block; 
+    width: 90%; 
+    text-align: center;
+    background-color: black; 
+    color: palevioletred; 
+    padding: 3px;}
+.charactor a:hover{
+    background-color: darkblue;
+}
+.xam {
+    border: solid 3px darkcyan;
+}
+.charactor table{
+    width: 65%;
+    border-collapse: collapse;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.charactor table, th, td {
+    border: 3px solid black;
+}
+.charactor td {
+    width: 45%;
+}
+.charactor {
+    font-size: 21px;
+    font-weight: bold;
+}
+#addsinger{border: 2px pink solid; padding: 3px; background-color: black; color: pink;  
+margin-top: 10px;
+}
+img.ava {
+    max-width: 600px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+img.cover {
+    max-width: 1200px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
